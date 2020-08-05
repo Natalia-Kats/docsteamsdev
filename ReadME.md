@@ -1,3 +1,5 @@
+# Материалы по Платформе приложений для Microsoft Teams и Microsoft Graph.
+
 * [Презентация](https://1drv.ms/b/s!ApfdFErcwDpjg-MnrT3mKn6HrQpOxw) с обзором основных возможностей платформы приложений Microsoft Teams и Microsoft Graph. (от Натальи Кац)
 
 ## Microsoft Teams Developer Platform

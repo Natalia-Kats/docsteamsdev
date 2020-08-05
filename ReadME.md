@@ -2,7 +2,7 @@
 
 * [Презентация](https://1drv.ms/b/s!ApfdFErcwDpjg-MnrT3mKn6HrQpOxw) с обзором основных возможностей платформы приложений Microsoft Teams и Microsoft Graph (от Натальи Кац).
 
-## Microsoft Teams Developer Platform
+## Платформа приложений для Microsoft Teams
 * [aka.ms/teamsdev](http://aka.ms/teamsdev) – основная документация.
 * [Примеры кода на GitHub ](https://github.com/microsoft/BotBuilder-Samples/tree/master/samples) – в папке Samples  находятся примеры решений (на C#, JavaScript, Python). Примеры для Teams  – с 50 по 58.
 * [aka.ms/TeamsAppTemplates](http://aka.ms/TeamsAppTemplates) – готовые приложения, которые можно развернуть и начать использовать.

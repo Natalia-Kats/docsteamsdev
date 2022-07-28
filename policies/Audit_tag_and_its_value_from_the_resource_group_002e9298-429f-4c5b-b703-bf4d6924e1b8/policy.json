@@ -1,0 +1,38 @@
+{
+ "properties": {
+  "displayName": "Audit tag and its value from the resource group",
+  "policyType": "Custom",
+  "mode": "Indexed",
+  "description": "Audit tag and its value from the resource group",
+  "metadata": {
+   "category": "Tagging",
+   "createdBy": "534b6c8c-c8b1-41e1-bec1-41c3e2473994",
+   "createdOn": "2022-07-28T22:56:28.1237101Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "parameters": {
+   "tagName": {
+    "type": "String",
+    "metadata": {
+     "displayName": "Tag Name",
+     "description": "Name of the tag, such as 'environment'"
+    }
+   }
+  },
+  "policyRule": {
+   "if": {
+    "not": {
+     "field": "[concat('tags[', parameters('tagName'), ']')]",
+     "equals": "[resourceGroup().tags[parameters('tagName')]]"
+    }
+   },
+   "then": {
+    "effect": "audit"
+   }
+  }
+ },
+ "id": "/providers/Microsoft.Management/managementGroups/ERC/providers/Microsoft.Authorization/policyDefinitions/002e9298-429f-4c5b-b703-bf4d6924e1b8",
+ "type": "Microsoft.Authorization/policyDefinitions",
+ "name": "002e9298-429f-4c5b-b703-bf4d6924e1b8"
+}
